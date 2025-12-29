@@ -1,4 +1,4 @@
-    /* General Layout */
+  /* General Layout */
 body { 
     font-family: Arial, sans-serif; 
     line-height: 1.6; 
@@ -38,11 +38,20 @@ h2, h3 {
 }
 
 img { 
-    max-width: 100%; 
-    height: auto; 
-    border-radius: 5px; 
+    max-width: 176px;
+    height: auto;   
+    border-radius: 88px; 
     margin: 10px 0; 
+} #photo.{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #4db8ff;
+} #photo:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
+
 
 footer { 
     margin-top: 30px; 
@@ -52,7 +61,7 @@ footer {
 
 /* Button Styles - Only defined once */
 button {
-    background-color: #35424a;
+    background-color: red;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -60,11 +69,9 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-    transition: background 0.3s ease;
+    transition: background 0.2s ease;
 }
 
 button:hover {
     background-color: #4db8ff;
 }
-
-
